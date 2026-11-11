@@ -1,0 +1,8 @@
+name: MCord
+version: '${version}'
+
+main: org.sharkk2.mcord.MCord
+api-version: '1.21'
+load: POSTWORLD
+libraries:
+  - net.dv8tion:JDA:6.7.0

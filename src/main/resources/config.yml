@@ -1,0 +1,56 @@
+# -----------------------------
+# MCord Plugin Configuration
+# -----------------------------
+
+# Discord Bot Token
+# Your bot token is required for the bot to authenticate and connect to Discord.
+token: "MTM..." # replace
+
+# Admins
+# This list holds the Discord user IDs of the bot's administrators.
+# These admins can control and manage the bot's functionality on the server.
+# for example, only admins set here can use the /setup command.
+admins:
+  - "jollyshrk"  # Example Discord username of an admin
+  - "mrclix"  # Another example of a discord username
+
+# -----------------------------
+# Additional Settings
+# -----------------------------
+
+
+allow_profanity: true
+# Bot status
+# Leave as "null" to view current minecraft server players
+status: ""
+activity_type: "1" # 0: Playing, 1: Listening, 2: Watching
+
+# Whether to send Minecraft chat messages to Discord
+chat_to_discord: true
+
+# tip: starting your message with "!!" e.g "!!hey" the message will not be sent to discord/minecraft chat
+
+# Whether to send Minecraft console messages to Discord
+console_to_discord: true
+
+# Whether to send discord messages to minecraft
+discord_to_minecraft: true
+
+# Events to send:
+player_join: true
+player_leave: true
+player_death: true
+player_advancements: true
+server_on: true
+server_off: true
+
+# Emojis 💀 (for discord)
+
+tickEmoji: "<:tick:1570055348235149334>"
+XEmoji: "<:no:1570055322201096283>"
+replyEmoji: "<:reply:1570055374780895242>"
+reply2Emoji: "<:replycont:1570055411124539453>" # Continued reply
+
+# Other:
+reactOnSuccess: true
+debug: false
